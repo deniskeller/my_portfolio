@@ -1,0 +1,77 @@
+html {
+  // @extend %background-gradient;  
+  color: $black;
+  font-family: $font-Montserrat;
+  font-weight: normal;
+  font-size: (16/720) * 100vh;
+  min-height: 100%;
+  line-height: 1.8;
+}
+
+@media screen and (max-aspect-ratio: 1440/720) {
+  html {
+    font-size: (16/1440) * 100vw;
+  }
+}
+
+@media only screen and (min-width: 1440px) and (max-aspect-ratio: 1440/720) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-height: 720px) and (min-aspect-ratio: 1440/720) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  @include ifmobile {
+    font-size: (16/375) * 100vw;
+  }
+}
+
+body {
+  min-height: 100%;
+  margin: 0;
+}
+
+button {
+  font-family: $font-Montserrat;
+  cursor: pointer;
+  outline: none;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: $font-Montserrat;
+  color: $black;
+}
+
+.container {
+  max-width: 1180px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  color: $black;
+  text-decoration: none;
+  background-image: linear-gradient(to right, $blue, $blue);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size .3s;
+
+  &:active,
+  &:hover {
+    color: $blue;
+  }
+}
