@@ -228,7 +228,6 @@
           width: em(360px);
           height: em(240px);
           margin-bottom: em(20px);
-          cursor: pointer;
         }
         &__content {
           padding-left: em(20px);
@@ -288,8 +287,6 @@
           height: 100%;   
           overflow-y: auto;
           z-index: 1;
-          display: none;
-          // display: block;
         }
         .info {
           background: $white;
@@ -454,4 +451,15 @@
   }
 }
 
+.client {
+  display: block;
+}
+.manager {
+  display: none;
+  text-indent: 0 !important;
+}
+
+.hide {
+  display: none;
+}
   
