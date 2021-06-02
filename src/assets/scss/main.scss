@@ -226,7 +226,7 @@
         box-shadow: 2px 6px 15px rgba(0, 0, 0, 0.25);
         &__img {
           width: em(360px);
-          height: em(240px);
+          height: em(200px);
           margin-bottom: em(20px);
         }
         &__content {
@@ -461,5 +461,11 @@
 
 .hide {
   display: none;
+}
+
+.nda {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
   
