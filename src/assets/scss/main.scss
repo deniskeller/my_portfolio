@@ -45,6 +45,9 @@
       font-size: em(18px);
       font-weight: normal;
       margin-bottom: em(100px);
+      @include ifmobile {
+        margin-bottom: em(40px);
+      }
     }
   
     &__switch {
@@ -52,9 +55,12 @@
       flex-direction: row;
       justify-content: space-between;
       align-items: center;
-      margin-bottom: em(70px);
       position: relative;
       left: em(17px);
+      margin-bottom: em(70px);
+      @include ifmobile {
+        margin-bottom: em(0px);
+      }
     }
   
     .switch {
