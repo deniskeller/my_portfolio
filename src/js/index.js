@@ -1,3 +1,6 @@
+import smoothscroll from "smoothscroll-polyfill";
+// kick off the polyfill!
+smoothscroll.polyfill();
 //switch input
 const btn = document.querySelector(".toggle-checkbox");
 const input = document.querySelector(".toggle-checkbox__input");

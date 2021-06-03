@@ -21,7 +21,9 @@
     "scss"
   ],
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "smoothscroll-polyfill": "^0.4.4"
+  },
   "devDependencies": {
     "@babel/core": "^7.9.0",
     "@babel/preset-env": "^7.9.5",
