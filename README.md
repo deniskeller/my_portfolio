@@ -8,4 +8,4 @@ npm run start
 
 ### Demo
 
-https://github.com/deniskeller/tsekh.git
+https://deniskellerdev.vercel.app/
